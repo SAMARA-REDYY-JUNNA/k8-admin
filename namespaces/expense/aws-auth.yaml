@@ -7,7 +7,7 @@ data:
       - system:nodes
       rolearn: arn:aws:iam::888121514691:role/eksctl-expense-nodegroup-expense-NodeInstanceRole-lvNXuR3PHnck
       username: system:node:{{EC2PrivateDNSName}}
-        mapUsers: |
+  mapUsers: |
     - groups:
       - expense-pod-reader
       userarn: arn:aws:iam::888121514691:user/sameks
